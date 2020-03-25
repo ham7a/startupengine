@@ -31,7 +31,7 @@ class MakePageHtmlCssAndScriptsLongtext extends Migration
         DB::statement('ALTER TABLE pages CHANGE html css scripts LONGTEXT;');
         */
 
-        DB::statement('ALTER TABLE pages ALTER COLUMN html TYPE TEXT;');
+        DB::statement('ALTER TABLE `pages` CHANGE COLUMN `html` `html` TEXT;');
     }
 
     /**
