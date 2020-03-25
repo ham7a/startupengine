@@ -15,8 +15,20 @@ A beautiful & open-source platform for launching startups.<br>
 - [x] Completely open-source.
 - [x] 1-Click Install.
 
-# Documentation
-Documentation is available at [https://www.startupengine.io/docs](https://www.startupengine.io/docs).
+# Installation
+<div> After cloning the repository: </div>
+<ul>
+  <li> Rename '.env.example' to '.env' </li>
+  <li> Create an empty database with a name of your choosing </li>
+  <li> Edit '.env' with the correct parameters (connection, host, port, database, username, and password).</li>
+</ul>
+<div> In a terminal, run the following commands: </div>
+  <code> cd startupengine </code><br>
+  <code> composer install </code><br>
+  <code> php artisan key:generate </code><br>
+  <code> php artisan migrate:refresh --seed </code><br>
+  <code> php artisan passport:install </code><br>
+  <code> php artisan passport:keys </code><br>
 
 # Deployment
 
