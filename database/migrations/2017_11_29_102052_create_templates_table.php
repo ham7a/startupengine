@@ -17,7 +17,7 @@ class CreateTemplatesTable extends Migration
             $table->increments('id');
             $table->timestamps();
             $table->softDeletes();
-            $table->text('slug')->unique();
+            $table->string('slug',255)->unique();
             $table->text('css')->nullable();
             $table->text('html')->nullable();
             $table->text('scripts')->nullable();
