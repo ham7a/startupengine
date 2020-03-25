@@ -29,8 +29,8 @@ A beautiful & open-source platform for launching startups.<br>
   <code> composer install </code><br>
   <code> php artisan key:generate </code><br>
   <code> php artisan migrate:refresh --seed </code><br>
-  <code> php artisan passport:install </code><br>
-  <code> php artisan passport:keys </code><br>
+  <code> php artisan serve </code>
+<div> go to this URL: localhost:8000 </div>
 
 # Deployment
 
