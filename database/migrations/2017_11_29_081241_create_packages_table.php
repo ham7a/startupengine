@@ -17,7 +17,7 @@ class CreatePackagesTable extends Migration
             $table->increments('id');
             $table->timestamps();
             $table->softDeletes();
-            $table->text('url')->unique();
+            $table->string('url',255)->unique();
             $table->text('name')->nullable();
             $table->integer('user_id')->nullable();
         });
