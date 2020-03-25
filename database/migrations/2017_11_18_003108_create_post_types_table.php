@@ -16,7 +16,7 @@ class CreatePostTypesTable extends Migration
         Schema::create('post_types', function (Blueprint $table) {
             $table->increments('id');
             $table->text('title')->nullable();
-            $table->text('slug')->unique();
+            $table->string('slug',255)->unique();
             $table->boolean('enabled')->nullable();
             $table->json('json')->nullable();
             $table->json('custom_json')->nullable();
