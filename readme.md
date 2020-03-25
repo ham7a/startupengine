@@ -16,12 +16,14 @@ A beautiful & open-source platform for launching startups.<br>
 - [x] 1-Click Install.
 
 # Installation
+
 <div> After cloning the repository: </div>
 <ul>
   <li> Rename '.env.example' to '.env' </li>
   <li> Create an empty database with a name of your choosing </li>
   <li> Edit '.env' with the correct parameters (connection, host, port, database, username, and password).</li>
 </ul>
+
 <div> In a terminal, run the following commands: </div>
   <code> cd startupengine </code><br>
   <code> composer install </code><br>
