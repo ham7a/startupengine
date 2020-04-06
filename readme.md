@@ -30,7 +30,7 @@ A beautiful & open-source platform for launching startups.<br>
   <code> php artisan key:generate </code><br>
   <code> php artisan migrate:refresh --seed </code><br>
   <code> php artisan serve </code>
-<div> go to this URL: <a href="127.0.0.1:8000"> StartupEngine</a> </div>
+<div> go to this URL: <a href="127.0.0.1:8000">StartupEngine</a> </div>
 
 # Deployment
 
